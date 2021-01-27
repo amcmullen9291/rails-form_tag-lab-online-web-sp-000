@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
 
   def show
     binding.pry
-    @student = Students.find(params[:id])
+    @student = Student.find(params[:id])
   end
   
   def new 
